@@ -3,10 +3,10 @@ require 'pry'
 class Transfer
   # your code here
 
-  def initializes(sender, transfer, num)
-      @sender = sender
+  def initializes(transfer, sender, receiver )
       @transfer = transfer
-      @num = num
+      @sender = sender
+      @receiver = receiver
       binding.pry
   end
 end
